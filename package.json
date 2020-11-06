@@ -1,0 +1,23 @@
+{
+  "name": "jest_challenges",
+  "version": "1.0.0",
+  "description": "Jest challenges",
+  "main": "index.js",
+  "scripts": {
+    "test": "jest"
+  },
+  "author": "Omar Montoya",
+  "license": "MIT",
+  "devDependencies": {
+    "jest": "^26.6.3"
+  },
+  "jest": {
+    "verbose": true,
+    "transformIgnorePatterns": [
+      "<rootDir>/(node_modules)/"
+    ]
+  },
+  "dependencies": {
+    "react": "^17.0.1"
+  }
+}
