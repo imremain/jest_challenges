@@ -54,6 +54,7 @@ describe('Jest challenges', () => {
                 email: "rob23@gmail.com"
             }
         ];
+        
         // Act
         const isDataValid = myAwesomeValidator(users);
         const isDataInvalid = myAwesomeValidator(invalidUsers);
